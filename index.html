@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loto Simulator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .numbers {
+            font-size: 2rem;
+            margin: 20px 0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simulateur de Tirage Loto</h1>
+    <div class="container">
+        <p>Appuyez sur le bouton pour simuler un tirage Loto aléatoire !</p>
+        <div class="numbers" id="results"></div>
+        <button onclick="generateLotoDraw()">Tirer les numéros</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
